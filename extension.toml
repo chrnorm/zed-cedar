@@ -1,0 +1,11 @@
+id = "cedar"
+name = "Cedar"
+version = "0.0.1"
+schema_version = 1
+authors = ["Chris Norman <17420369+chrnorm@users.noreply.github.com>"]
+description = "Cedar language support."
+repository = "https://github.com/chrnorm/zed-cedar"
+
+[grammars.cedar]
+repository = "https://github.com/chrnorm/tree-sitter-cedar"
+commit = "2ad0cded99ff992ffd57192d9fe7f50ccd48fdf0"

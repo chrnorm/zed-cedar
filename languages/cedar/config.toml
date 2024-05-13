@@ -1,0 +1,10 @@
+name = "Cedar"
+grammar = "cedar"
+path_suffixes = ["cedar"]
+line_comments = ["// "]
+autoclose_before = "}])"
+brackets = [
+    { start = "(", end = ")", close = true, newline = true },
+    { start = "[", end = "]", close = true, newline = true },
+    { start = "{", end = "}", close = true, newline = true },
+]
